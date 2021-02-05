@@ -1,0 +1,96 @@
+:root {
+  --interactive-color: #2196f3;
+  --logo-color: #000000;
+  --headers-color: #212121;
+  --text-color: #757575;
+  --white-text-background-color: rgba(255, 255, 255, 1);
+  --white-text-color-06: rgba(255, 255, 255, 0.6);
+}
+
+/* Загальні стилі для боді і списків */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* логотип компанії */
+.logo {
+  color: var(--logo-color);
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1, 2%;
+}
+
+.logo-part {
+  color: var(--interactive-color);
+}
+
+/* Навігація сайту */
+.nav-list .link {
+  color: var(--headers-color);
+  background-color: var(--white-text-background-color);
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 2%;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--interactive-color);
+}
+
+/* контактна інфо */
+.contacts-list .link {
+  color: var(--text-color);
+  background-color: var(--white-text-background-color);
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 2%;
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--interactive-color);
+}
+
+/* section Hero */
+.hero-title {
+  color: var(--white-text-background-color);
+  background-color: #2f303a;
+  font-family: inherit;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 1, 4%;
+  text-transform: uppercase;
+}
+
+.hero-link {
+  color: var(--white-text-background-color);
+  background-color: var(--interactive-color);
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 2%;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--headers-color);
+}
+
+/* section features */
