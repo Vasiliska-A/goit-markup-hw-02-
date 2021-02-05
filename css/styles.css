@@ -5,6 +5,8 @@
   --text-color: #757575;
   --white-text-background-color: rgba(255, 255, 255, 1);
   --white-text-color-06: rgba(255, 255, 255, 0.6);
+  --sections-background-color: #e5e5e5;
+  --section-team-background-color: #f5f4fa;
 }
 
 /* Загальні стилі для боді і списків */
@@ -16,6 +18,10 @@ ul {
   list-style-type: none;
 }
 
+/* .header {
+  background-color: var(--white-text-background-color);
+} */
+
 /* логотип компанії */
 .logo {
   color: var(--logo-color);
@@ -24,7 +30,7 @@ ul {
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
-  line-height: 1, 2%;
+  line-height: 1.2;
 }
 
 .logo-part {
@@ -40,7 +46,7 @@ ul {
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 2%;
+  line-height: 1.2;
 }
 
 .nav-list .link:hover,
@@ -57,7 +63,7 @@ ul {
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 2%;
+  line-height: 1.2;
 }
 
 .contacts-list .link:hover,
@@ -73,7 +79,7 @@ ul {
   font-weight: 900;
   font-style: normal;
   font-size: 44px;
-  line-height: 1, 4%;
+  line-height: 1.4;
   text-transform: uppercase;
 }
 
@@ -85,7 +91,7 @@ ul {
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
-  line-height: 2%;
+  line-height: 2;
 }
 
 .hero-link:hover,
@@ -93,4 +99,74 @@ ul {
   color: var(--headers-color);
 }
 
-/* section features */
+/* section features
+.features,
+.examles {
+  background-color: var(--sections-background-color);
+} */
+
+.item-title {
+  color: var(--headers-color);
+  background-color: var(--white-text-background-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.item-text {
+  color: var(--text-color);
+  background-color: var(--white-text-background-color);
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.examples-title {
+  color: var(--headers-color);
+  background-color: var(--white-text-background-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.team-section {
+  background-color: var(--sections-background-color);
+}
+
+.team-section-title {
+  color: var(--headers-color);
+  background-color: var(--section-team-background-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.section-list-title {
+  color: var(--headers-color);
+  background-color: var(--white-text-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.section-list-text {
+  color: var(--text-colorcolor);
+  background-color: var(--white-text-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* footer */
