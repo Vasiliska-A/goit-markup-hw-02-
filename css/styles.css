@@ -30,7 +30,11 @@ ul {
   font-weight: 700;
   font-style: normal;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.17;
+}
+
+.logo:focus {
+  color: var(--interactive-color);
 }
 
 .logo-part {
@@ -46,7 +50,7 @@ ul {
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
 .nav-list .link:hover,
@@ -63,7 +67,7 @@ ul {
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
 .contacts-list .link:hover,
@@ -79,7 +83,7 @@ ul {
   font-weight: 900;
   font-style: normal;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
   text-transform: uppercase;
 }
 
@@ -91,7 +95,7 @@ ul {
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.88;
 }
 
 .hero-link:hover,
@@ -112,7 +116,7 @@ ul {
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
 .item-text {
@@ -122,7 +126,7 @@ ul {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
 }
 
 .examples-title {
@@ -132,7 +136,7 @@ ul {
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
 .team-section {
@@ -146,7 +150,7 @@ ul {
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
 .section-list-title {
@@ -156,7 +160,7 @@ ul {
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
 .section-list-text {
@@ -166,7 +170,53 @@ ul {
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
 /* footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: var(--white-text-background-color);
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.footer-logo:focus {
+  color: var(--interactive-color);
+}
+
+.logo-part {
+  color: var(--interactive-color);
+}
+
+.address-text {
+  color: var(--white-text-background-color);
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.contacts-list-item {
+  color: var(--white-text-color-06);
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.contacts-list-item:hover,
+.contacts-list-item:focus {
+  color: var(--interactive-color);
+}
