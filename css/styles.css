@@ -7,6 +7,7 @@
   --white-text-color-06: rgba(255, 255, 255, 0.6);
   --sections-background-color: #e5e5e5;
   --section-team-background-color: #f5f4fa;
+  --border-color: rgba(238, 238, 238, 1);
 }
 
 /* Загальні стилі для боді і списків */
@@ -252,4 +253,30 @@ ul {
 .btn:hover,
 .btn:focus {
   color: var(--interactive-color);
+}
+
+.project-item {
+  border-style: solid;
+  border-color: var(--border-color);
+  border-width: 1px;
+}
+
+.project-title {
+  color: var(--headers-color);
+  background-color: var(--white-text-background-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.project-type {
+  color: var(--text-color);
+  background-color: var(--white-text-background-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
