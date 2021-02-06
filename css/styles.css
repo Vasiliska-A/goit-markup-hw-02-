@@ -18,6 +18,21 @@ ul {
   list-style-type: none;
 }
 
+/* Заховати заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* .header {
   background-color: var(--white-text-background-color);
 } */
@@ -218,5 +233,23 @@ ul {
 
 .contacts-list-item:hover,
 .contacts-list-item:focus {
+  color: var(--interactive-color);
+}
+
+/* Стилі портфоліо */
+.btn {
+  background-color: var(--section-team-background-color);
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.btn:hover,
+.btn:focus {
   color: var(--interactive-color);
 }
