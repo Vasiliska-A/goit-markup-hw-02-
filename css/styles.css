@@ -74,6 +74,10 @@ ul {
   color: var(--interactive-color);
 }
 
+.nav-list .list.current {
+  color: var(--interactive-color);
+}
+
 /* контактна інфо */
 .contacts-list .link {
   color: var(--text-color);
